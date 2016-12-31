@@ -117,16 +117,15 @@ class product_pricelist_configurator(Model):
                             raise osv.except_osv(('Warning!'), (
                                 """A pricelist item already existing
                                 for product %s and partner %s.""" % (
-                                conf.product_id.name,
-                                conf.partner_id.name)))
+                                    conf.product_id.name,
+                                    conf.partner_id.name)))
                     val = {
                         'price_version_id': price.id,
                         'product_id': conf.product_id.id,
                         'price_discount': -1,
                         'price_surcharge': conf.amount,
                         'name':
-                        str(conf.product_id.name)
-                        + "-" +
+                        str(conf.product_id.name) + "-" +
                         str(conf.partner_id.name)}
                     pricelist_id = self.pool.get(
                         'product.pricelist.item').create(cr, uid, val)

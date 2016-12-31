@@ -47,6 +47,6 @@ GUILLOT, Akretion
           'wizard/open_partner_by_attribute_set.xml'
           ],
  'test': ['test/partner_attribute_test.yml'],
- 'installable': True,
+ 'installable': False,
  'active': False,
  }

@@ -43,6 +43,6 @@ a zero base that will add only the price we put in the surcharge price.
     "data": [
         'view/product_pricelist_item_view.xml',
     ],
-    "installable": True,
+    "installable": False,
     "active": False,
 }

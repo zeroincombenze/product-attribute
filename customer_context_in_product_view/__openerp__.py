@@ -32,6 +32,6 @@
         viewing a list of products you can see the customers pricing.
     ''',
     'data': ['partner_pricelist_view.xml'],
-    'installable': True,
+    'installable': False,
     'active': False,
 }

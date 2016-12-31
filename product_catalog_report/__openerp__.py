@@ -29,7 +29,7 @@
     "demo_xml":[],
     "update_xml":['product_report.xml','product_wizard.xml'],
     "active":False,
-    "installable":True,
+    "installable":False,
 }
 # vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
 

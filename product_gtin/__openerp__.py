@@ -35,5 +35,5 @@ Replaces the EAN13 field on products, partners and packaging by a field with the
     """,
     "demo": [],
     "data": [],
-    "installable": True,
+    "installable": False,
 }

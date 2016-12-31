@@ -56,5 +56,5 @@ How To Use
     'test': [
         'test/pricelist_configurator_by_bom.yml'
     ],
-    'installable': True,
+    'installable': False,
 }
