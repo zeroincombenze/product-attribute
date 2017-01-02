@@ -7,10 +7,21 @@
 [![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-7.svg)](http://wiki.zeroincombenze.org/en/Odoo/7.0/man/)
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-7.svg)](http://erp7.zeroincombenze.it)
 
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+
 Odoo Product Attribute
 ======================
 
-Various addons related to attribute management for products.
+Various addons related to attribute management for products (not yet active).
+
+
+[![it](http://www.shs-av.com/wp-content/it_IT.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+
+Attributi di prodotto
+=====================
+
+Moduli vari non ancora attivati
+
 
 [//]: # (copyright)
 
