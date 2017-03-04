@@ -55,6 +55,6 @@ docs/_build/
 *~
 *.swp
 stdout.log
-oca__*
-z0i__*
+*.oca
+*.z0i
 product-attribute/
