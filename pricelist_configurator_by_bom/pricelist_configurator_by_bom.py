@@ -21,7 +21,7 @@
 from openerp.osv.orm import Model
 from openerp.osv import fields, osv
 import datetime
-import openerp.addons.decimal_precision as dp
+import decimal_precision as dp
 
 
 class product_pricelist_configurator_line(Model):
