@@ -1,28 +1,42 @@
-.. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
+[![Build Status](https://travis-ci.org/zeroincombenze/product-attribute.svg?branch=10.0)](https://travis-ci.org/zeroincombenze/product-attribute)
+[![license agpl](https://img.shields.io/badge/licence-AGPL--3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0.html)
+[![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/product-attribute/badge.svg?branch=10.0)](https://coveralls.io/github/zeroincombenze/product-attribute?branch=10.0)
+[![codecov](https://codecov.io/gh/zeroincombenze/product-attribute/branch/10.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/product-attribute/branch/10.0)
+[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-10.svg)](https://github.com/OCA/product-attribute/tree/10.0)
+[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/dev)
+[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/man/MM)
+[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
+
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
+================================================================
    :alt: License: AGPL-3
 
-======================================
 Display Customer Price in Product View
-======================================
 
 This module extends the functionality of products and partners by
 adding a button named "Pricing" on the partner view.  On clicking
 it will open up a list of products displaying the customers pricing
 
 Installation
-============
+------------
+
 
 While the module will install without the sale module, the functionality
 won't be visible so it is expected that sale module will be installed as well.
 
 Configuration
-=============
+-------------
+
 
 In order for the module to be useful you will need to have enabled both
 variants and advanced pricelists under the Sales / Settings menu.
 
 Usage
+-----
+
 =====
 
 # Navigate to a customer (form view)
@@ -34,7 +48,8 @@ Usage
    :target: https://runbot.odoo-community.org/runbot/135/10.0
 
 Known issues / Roadmap
-======================
+----------------------
+
 
 * Previous versions of this module allowed the customers name to be typed directly in the view.
 * While fields.dummy has been deprecated the functionality can still be acheived by an unstored many2one
@@ -46,7 +61,8 @@ However, the way in which the context is set presents two issues.
 * The tree view does not dynamically change context in version 10 from search bar entries.
 
 Bug Tracker
-===========
+-----------
+
 
 Bugs are tracked on `GitHub Issues
 <https://github.com/OCA/{project_repo}/issues>`_. In case of trouble, please
@@ -54,20 +70,24 @@ check there if your issue has already been reported. If you spotted it first,
 help us smash it by providing detailed and welcomed feedback.
 
 Credits
-=======
+-------
+
 
 Images
-------
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-Contributors
-------------
+[![Odoo Italia Associazione]]
+
+### Contributors
+
 
 * Graeme Gellatly <g@o4sb.com>
 
-Maintainer
-----------
+### Funders
+
+### Maintainer
+
 
 .. image:: https://odoo-community.org/logo.png
    :alt: Odoo Community Association
@@ -80,3 +100,27 @@ mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
 To contribute to this module, please visit https://odoo-community.org.
+
+[//]: # (copyright)
+
+----
+
+**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/) (formerly OpenERP, formerly TinyERP)
+
+**OCA**, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
+mission is to support the collaborative development of Odoo features and
+promote its widespread use.
+
+**zeroincombenze®** is a trademark of [SHS-AV s.r.l.](http://www.shs-av.com/)
+which distributes and promotes **Odoo** ready-to-use on its own cloud infrastructure.
+[Zeroincombenze® distribution](http://wiki.zeroincombenze.org/en/Odoo)
+is mainly designed for Italian law and markeplace.
+Everytime, every Odoo DB and customized code can be deployed on local server too.
+
+[//]: # (end copyright)
+
+[//]: # (addons)
+
+[//]: # (end addons)
+
+[![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)

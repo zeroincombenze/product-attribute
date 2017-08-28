@@ -10,6 +10,7 @@
 
 [![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 ================================================================================================
+================================================================================================
 
 Odoo Product Attribute
 
@@ -17,7 +18,9 @@ Various addons related to attribute management for products.
 
 [//]: # (addons)
 
+
 Available addons
+----------------
 addon | version | summary
 --- | --- | ---
 [customer_pricing_in_product_view](customer_pricing_in_product_view/) | 10.0.1.0.0 | Display Customer Price in Product View
@@ -34,6 +37,7 @@ addon | version | summary
 
 
 Unported addons
+---------------
 addon | version | summary
 --- | --- | ---
 [base_custom_attributes](base_custom_attributes/) | 0.1.1 (unported) | base_custom_attributes

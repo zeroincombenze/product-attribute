@@ -1,30 +1,47 @@
+[![Build Status](https://travis-ci.org/zeroincombenze/product-attribute.svg?branch=10.0)](https://travis-ci.org/zeroincombenze/product-attribute)
+[![license agpl](https://img.shields.io/badge/licence-AGPL--3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0.html)
+[![Coverage Status](https://coveralls.io/repos/github/zeroincombenze/product-attribute/badge.svg?branch=10.0)](https://coveralls.io/github/zeroincombenze/product-attribute?branch=10.0)
+[![codecov](https://codecov.io/gh/zeroincombenze/product-attribute/branch/10.0/graph/badge.svg)](https://codecov.io/gh/zeroincombenze/product-attribute/branch/10.0)
+[![OCA_project](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-oca-10.svg)](https://github.com/OCA/product-attribute/tree/10.0)
+[![Tech Doc](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-docs-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/dev)
+[![Help](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-help-10.svg)](http://wiki.zeroincombenze.org/en/Odoo/10.0/man/MM)
+[![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
+
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+
 .. image:: https://img.shields.io/badge/license-LGPL--3-blue.svg
+================================================================
     :target: http://www.gnu.org/licenses/lgpl-3.0-standalone.html
     :alt: License: LGPL-3
 
-======================
 Default Product Images
-======================
 
 This module adds default images to products with the ability to map their images to their
 `Category's Image`, to a single, `Global Product Image`, or to both, `Global and Category`, where global
 acts as a backup if the category has no image. You can also disable default images by choosing
 `No Default Image`.
 
+Installation
+------------
+
+Configuration
+-------------
+
 Usage
+-----
+
 =====
 
 There are a few notable features in this module, see below:
 
 Post Installation
------------------
 
 After installation, all products with no image will be automatically changed
 when you change your company's `Product Image Target` (see Stock Configuration Page).
 Since the default option is `No Default Image`, your product images will remain untouched during installation.
 
 When Will Product Images Be Automatically Changed?
---------------------------------------------------
 
 * Product images will automatically change when you change `Default Product Image` in the stock configuration page.
 * Product images will also be changed if you change the product's category in the product form. This only applies
@@ -37,7 +54,6 @@ have an image when installing this module will be marked as `custom` images. The
 change unless you click the `Apply Default Image` in the product form view.
 
 Stock Configuration Page
-------------------------
 
 * Go to `Inventory` in the top header.
 * Under `Configuration`, click `Settings`.
@@ -53,14 +69,12 @@ Eligible refers to products that have Auto Change Image as True, do not have an 
 a custom image, or have a default image already.
 
 Product Category Form View
---------------------------
 
 * Image fields have been added to categories
 * Changing the category's image field will also change product images that are tied to that
   category. Only applicable if `Default Product Image` is set to `Category's Image` or `Global and Category`
 
 Product Form View
------------------
 
 * Go to `Inventory` in the top header.
 * Under `Inventory Control`, click `Products`.
@@ -79,7 +93,6 @@ All image defaults are also loaded when you create a new product.
    :target: https://runbot.odoo-community.org/runbot/135/10.0
 
 Known Issues / Roadmap
-======================
 
 * Refactor product.template _change_template_image method
 * Centralize logic that converts the company product_image_target to the
@@ -90,8 +103,12 @@ Known Issues / Roadmap
 * After logic is centralized, add a res.company create method overload that auto-populates
   product images.
 
+Known issues / Roadmap
+----------------------
+
 Bug Tracker
-===========
+-----------
+
 
 Bugs are tracked on `GitHub Issues
 <https://github.com/OCA/product-attribute/issues>`_. In case of trouble, please
@@ -99,21 +116,25 @@ check there if your issue has already been reported. If you spotted it first,
 help us smash it by providing detailed and welcomed feedback.
 
 Credits
-=======
+-------
+
 
 Images
-------
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 * Company Default Product Image: `Image <https://openclipart.org/detail/98491/open-box>`_.
 
-Contributors
-------------
+[![Odoo Italia Associazione]]
+
+### Contributors
+
 
 * Brett Wood <bwood@laslabs.com>
 
-Maintainer
-----------
+### Funders
+
+### Maintainer
+
 
 .. image:: https://odoo-community.org/logo.png
    :alt: Odoo Community Association
@@ -126,3 +147,27 @@ mission is to support the collaborative development of Odoo features and
 promote its widespread use.
 
 To contribute to this module, please visit http://odoo-community.org.
+
+[//]: # (copyright)
+
+----
+
+**Odoo** is a trademark of [Odoo S.A.](https://www.odoo.com/) (formerly OpenERP, formerly TinyERP)
+
+**OCA**, or the [Odoo Community Association](http://odoo-community.org/), is a nonprofit organization whose
+mission is to support the collaborative development of Odoo features and
+promote its widespread use.
+
+**zeroincombenze®** is a trademark of [SHS-AV s.r.l.](http://www.shs-av.com/)
+which distributes and promotes **Odoo** ready-to-use on its own cloud infrastructure.
+[Zeroincombenze® distribution](http://wiki.zeroincombenze.org/en/Odoo)
+is mainly designed for Italian law and markeplace.
+Everytime, every Odoo DB and customized code can be deployed on local server too.
+
+[//]: # (end copyright)
+
+[//]: # (addons)
+
+[//]: # (end addons)
+
+[![chat with us](https://www.shs-av.com/wp-content/chat_with_us.gif)](https://tawk.to/85d4f6e06e68dd4e358797643fe5ee67540e408b)
