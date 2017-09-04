@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 .. image:: https://img.shields.io/badge/license-AGPLv3-blue.svg
 ===============================================================
@@ -29,15 +29,19 @@ Installation
 ------------
 
 
+
  No external library is used.
 
 Configuration
 -------------
 
 
+
  No configuration is required.
 
 Usage
+-----
+
 -----
 
 =====
@@ -51,6 +55,7 @@ Known issues / Roadmap
 ----------------------
 
 
+
 * Add a field with brands associated to a Customer or Supplier on
   the Customers/Suppliers Form View.
 * Fix smart button alignment in brand form view
@@ -58,6 +63,7 @@ Known issues / Roadmap
 
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues
@@ -71,13 +77,16 @@ Credits
 -------
 
 
+
 Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Mathieu Lemercier <mathieu@netandco.net>
@@ -92,6 +101,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: http://odoo-community.org/logo.png

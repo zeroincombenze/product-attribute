@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-10.svg)](http://erp10.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
    :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
 ================================================================
@@ -23,6 +23,7 @@ Installation
 ------------
 
 
+
 Prior to installing this module, if you have any existing products you should ensure
 they already have a unique reference (or no reference) set.  Products with a default_code of
 '/' or empty will automatically be assigned a code of "!!mig!!" followed by the system id for that product.
@@ -32,7 +33,10 @@ Otherwise the setting of the unique constraint will fail and the module will fai
 Configuration
 -------------
 
+
 Usage
+-----
+
 -----
 
 =====
@@ -44,8 +48,10 @@ Usage
 Known issues / Roadmap
 ----------------------
 
+
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues
@@ -57,13 +63,16 @@ Credits
 -------
 
 
+
 Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Angel Moya <angel.moya@domatix.com>
@@ -73,6 +82,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png
