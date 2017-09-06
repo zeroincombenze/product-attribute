@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
 ================================================================
@@ -26,8 +26,10 @@ It avoids a lot of manual entries.
 Installation
 ------------
 
+
 Configuration
 -------------
+
 
 
 To configure this module (for non admin user), you need to:
@@ -36,6 +38,8 @@ To configure this module (for non admin user), you need to:
 #. Check 'Use pricelists'
 
 Usage
+-----
+
 -----
 
 =====
@@ -79,10 +83,12 @@ Known issues / Roadmap
 ----------------------
 
 
+
 * Only support sales pricelist: others possible
 
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues
@@ -94,13 +100,16 @@ Credits
 -------
 
 
+
 Images
 
 * Icon images comes from https://icons8.com/web-app/for/all/price%20dollar
 
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * David BEAL <david.beal@akretion.com>
@@ -108,6 +117,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

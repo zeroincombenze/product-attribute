@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
 ================================================================
@@ -25,13 +25,17 @@ Installation
 ------------
 
 
+
 Installing the module sale and product_supplier_info_for_customer this module
 will be installed.
 
 Configuration
 -------------
 
+
 Usage
+-----
+
 -----
 
 =====
@@ -71,16 +75,21 @@ To use this module, you need:
 Known issues / Roadmap
 ----------------------
 
+
 Bug Tracker
 -----------
+
 
 Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 * Moisés López <moylop260@vauxoo.com>
 * Yennifer Santiago <yennifer@vauxoo.com>
@@ -89,6 +98,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

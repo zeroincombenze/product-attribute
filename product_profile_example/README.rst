@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
 ================================================================
@@ -25,8 +25,10 @@ See its description.
 Installation
 ------------
 
+
 Configuration
 -------------
+
 
 
 Optionnaly:
@@ -39,6 +41,8 @@ Optionnaly:
 Usage
 -----
 
+-----
+
 =====
 
 Create or modify a product template or a product variant. Assign a value to the profile field.
@@ -47,8 +51,10 @@ Then, all fields which depend on this profile will be set to the right value at 
 Known issues / Roadmap
 ----------------------
 
+
 Bug Tracker
 -----------
+
 
 
 See 'Bug tracker' in the README.rst of Product Profile module
@@ -57,9 +63,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * David BEAL <david.beal@akretion.com>
@@ -67,6 +76,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: http://odoo-community.org/logo.png

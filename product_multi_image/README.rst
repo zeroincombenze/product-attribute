@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
 ================================================================
@@ -24,6 +24,7 @@ Installation
 ------------
 
 
+
 To install this module, you need to:
 
 * Install ``base_multi_image`` from
@@ -32,7 +33,10 @@ To install this module, you need to:
 Configuration
 -------------
 
+
 Usage
+-----
+
 -----
 
 =====
@@ -68,6 +72,7 @@ Known issues / Roadmap
 ----------------------
 
 
+
 * When you change the image on the product variant, the preview image of the
   *Images* tab doesn't get refreshed until you refresh the browser, or if you
   go to its template, but the image has been actually saved!
@@ -88,6 +93,7 @@ Bug Tracker
 -----------
 
 
+
 Bugs are tracked on `GitHub Issues
 <https://github.com/OCA/product-attribute/issues>`_. In case of trouble, please
 check there if your issue has already been reported. If you spotted it first,
@@ -101,13 +107,16 @@ Credits
 -------
 
 
+
 Original implementation
 This module is inspired in previous module *product_images* from OpenLabs
 and Akretion.
 
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Pedro M. Baeza <pedro.baeza@serviciosbaeza.com>
@@ -117,6 +126,8 @@ and Akretion.
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png

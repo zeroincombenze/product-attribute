@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
 ================================================================
@@ -24,8 +24,10 @@ allowing to define prices per customer and product.
 Installation
 ------------
 
+
 Configuration
 -------------
+
 
 
 For these prices to be used in sale prices calculations, you will have
@@ -33,6 +35,8 @@ to create a pricelist with a rule with option "Based on" with the value
 "Supplier prices on the product form" (although the text is not clear enough).
 
 Usage
+-----
+
 -----
 
 =====
@@ -54,6 +58,7 @@ Known issues / Roadmap
 ----------------------
 
 
+
 * Product prices through this method are only guaranteed on the standard sale
   order workflow. Other custom flows maybe don't reflect the price.
 * The minimum quantity will not also be applied on sale orders.
@@ -63,13 +68,17 @@ Known issues / Roadmap
 Bug Tracker
 -----------
 
+
 Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 * Oihane Crucelaegui <oihanecrucelaegi@avanzosc.es>
 * Pedro M. Baeza <pedro.baeza@serviciosbaeza.com>

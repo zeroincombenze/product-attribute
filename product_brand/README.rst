@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 Product Brand Manager [product_brand]
 =====================================
@@ -21,6 +21,7 @@ Installation
 ------------
 
 
+
 To install this module, you need to:
 
  * git clone https://github.com/OCA/product_attribute --branch 8.0
@@ -31,11 +32,14 @@ Configuration
 -------------
 
 
+
 To configure this module, you need to:
 
  * no configuration required
 
 Usage
+-----
+
 -----
 
 =====
@@ -52,12 +56,14 @@ Known issues / Roadmap
 ----------------------
 
 
+
 * add a field with brands assiciated to a Customer or Supplier on 
   the Customers/Suppliers Form View
 
 
 Bug Tracker
 -----------
+
 
 
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/product-attribute/issues>`_.
@@ -70,9 +76,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Mathieu Lemercier <mathieu@netandco.net>
@@ -84,6 +93,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: http://odoo-community.org/logo.png

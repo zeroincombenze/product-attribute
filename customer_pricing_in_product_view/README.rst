@@ -8,7 +8,7 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
+[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
 
 .. image:: https://img.shields.io/badge/licence-AGPL--3-blue.svg
 ================================================================
@@ -24,6 +24,7 @@ Installation
 ------------
 
 
+
 To install this module, you need to:
 
 * do nothing special
@@ -32,11 +33,14 @@ Configuration
 -------------
 
 
+
 To configure this module, you need to:
 
 * do nothing
 
 Usage
+-----
+
 -----
 
 =====
@@ -58,6 +62,7 @@ Known issues / Roadmap
 ----------------------
 
 
+
 * In previous releases this module was called 'customer_context_in_product_view' and allowed typing in a customers name
   directly in the product view.  Unfortunately with changes to the v8 search view handling of functional many2one's
   and the deprecation of fields.Dummy this was not easily portable however it is desired to find a more elegant way
@@ -70,6 +75,7 @@ Bug Tracker
 -----------
 
 
+
 Bugs are tracked on `GitHub Issues <https://github.com/OCA/product-attribute/issues>`_.
 In case of trouble, please check there if your issue has already been reported.
 If you spotted it first, help us smashing it by providing a detailed and welcomed feedback
@@ -80,9 +86,12 @@ Credits
 -------
 
 
+
 [![Odoo Italia Associazione]]
 
+
 ### Contributors
+
 
 
 * Graeme Gellatly <g@o4sb.com>
@@ -91,6 +100,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 .. image:: https://odoo-community.org/logo.png
