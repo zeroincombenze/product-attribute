@@ -30,6 +30,7 @@ Installation
 
 
 
+
  No external library is used.
 
 Configuration
@@ -37,9 +38,12 @@ Configuration
 
 
 
+
  No configuration is required.
 
 Usage
+-----
+
 -----
 
 -----
@@ -56,6 +60,7 @@ Known issues / Roadmap
 
 
 
+
 * Add a field with brands associated to a Customer or Supplier on
   the Customers/Suppliers Form View.
 * Fix smart button alignment in brand form view
@@ -63,6 +68,7 @@ Known issues / Roadmap
 
 Bug Tracker
 -----------
+
 
 
 
@@ -78,6 +84,7 @@ Credits
 
 
 
+
 Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
@@ -85,7 +92,9 @@ Images
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -101,6 +110,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 

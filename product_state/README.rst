@@ -23,6 +23,7 @@ Installation
 
 
 
+
 To install this module, you need to:
 
 * Click on install button
@@ -32,9 +33,12 @@ Configuration
 
 
 
+
 Nothing to configure.
 
 Usage
+-----
+
 -----
 
 -----
@@ -53,8 +57,10 @@ Known issues / Roadmap
 ----------------------
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -69,6 +75,7 @@ Credits
 
 
 
+
 Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
@@ -76,7 +83,9 @@ Images
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -85,6 +94,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 
