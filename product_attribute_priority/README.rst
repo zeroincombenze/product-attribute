@@ -26,11 +26,15 @@ Installation
 ------------
 
 
+
 Configuration
 -------------
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -39,8 +43,10 @@ Known issues / Roadmap
 ----------------------
 
 
+
 Bug Tracker
 -----------
+
 
 
 Credits
@@ -48,10 +54,13 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 * Luis Felipe Miléo <mileo@kmee.com.br>
@@ -59,6 +68,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

@@ -22,6 +22,7 @@ Installation
 
 
 
+
 To install this module, you need to:
 
  * git clone https://github.com/OCA/product_attribute --branch 8.0
@@ -33,11 +34,14 @@ Configuration
 
 
 
+
 To configure this module, you need to:
 
  * no configuration required
 
 Usage
+-----
+
 -----
 
 -----
@@ -57,12 +61,14 @@ Known issues / Roadmap
 
 
 
+
 * add a field with brands assiciated to a Customer or Supplier on 
   the Customers/Suppliers Form View
 
 
 Bug Tracker
 -----------
+
 
 
 
@@ -77,10 +83,13 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -93,6 +102,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

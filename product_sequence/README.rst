@@ -25,6 +25,7 @@ Installation
 
 
 
+
 Prior to installing this module, if you have any existing products you should ensure
 they already have a unique reference (or no reference) set.  Products with a default_code of
 '/' or empty will automatically be assigned a code of "!!mig!!" followed by the system id for that product.
@@ -35,7 +36,10 @@ Configuration
 -------------
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -50,8 +54,10 @@ Known issues / Roadmap
 ----------------------
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -65,10 +71,13 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 
@@ -78,6 +87,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

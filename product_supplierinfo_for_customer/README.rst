@@ -25,8 +25,10 @@ Installation
 ------------
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -35,6 +37,8 @@ to create a pricelist with a rule with option "Based on" with the value
 "Supplier prices on the product form" (although the text is not clear enough).
 
 Usage
+-----
+
 -----
 
 -----
@@ -59,6 +63,7 @@ Known issues / Roadmap
 
 
 
+
 * Product prices through this method are only guaranteed on the standard sale
   order workflow. Other custom flows maybe don't reflect the price.
 * The minimum quantity will not also be applied on sale orders.
@@ -69,15 +74,19 @@ Bug Tracker
 -----------
 
 
+
 Credits
 -------
+
 
 
 
 [![Odoo Italia Associazione]]
 
 
+
 ### Contributors
+
 
 
 * Oihane Crucelaegui <oihanecrucelaegi@avanzosc.es>
