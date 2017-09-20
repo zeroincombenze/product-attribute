@@ -28,8 +28,10 @@ Installation
 
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -40,6 +42,8 @@ To configure this module (for non admin user), you need to:
 #. Check 'Use pricelists'
 
 Usage
+-----
+
 -----
 
 -----
@@ -89,10 +93,12 @@ Known issues / Roadmap
 
 
 
+
 * Only support sales pricelist: others possible
 
 Bug Tracker
 -----------
+
 
 
 
@@ -108,6 +114,7 @@ Credits
 
 
 
+
 Images
 
 * Icon images comes from https://icons8.com/web-app/for/all/price%20dollar
@@ -116,7 +123,9 @@ Images
 
 
 
+
 ### Contributors
+
 
 
 
@@ -126,6 +135,8 @@ Images
 ### Funders
 
 ### Maintainer
+
+
 
 
 

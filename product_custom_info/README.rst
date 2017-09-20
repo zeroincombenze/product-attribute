@@ -25,11 +25,13 @@ Installation
 
 
 
+
 * You depend from module ``base_custom_info``, found in `OCA/server-tools
   <https://github.com/OCA/server-tools>`_.
 
 Configuration
 -------------
+
 
 
 
@@ -40,6 +42,8 @@ To create custom info templates:
 * Review documentation from ``base_custom_info`` module.
 
 Usage
+-----
+
 -----
 
 -----
@@ -64,8 +68,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -81,11 +87,14 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
+
 ### Contributors
+
 
 
 
@@ -98,6 +107,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

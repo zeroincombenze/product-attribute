@@ -27,8 +27,10 @@ Installation
 
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -47,6 +49,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 Create or modify a product template or a product variant. Assign a value to the profile field.
@@ -57,8 +61,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -71,11 +77,14 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
+
 ### Contributors
+
 
 
 
@@ -85,6 +94,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

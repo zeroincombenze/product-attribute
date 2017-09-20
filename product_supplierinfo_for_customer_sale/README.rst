@@ -27,6 +27,7 @@ Installation
 
 
 
+
 Installing the module sale and product_supplier_info_for_customer this module
 will be installed.
 
@@ -35,7 +36,10 @@ Configuration
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -81,8 +85,10 @@ Known issues / Roadmap
 
 
 
+
 Bug Tracker
 -----------
+
 
 
 
@@ -92,11 +98,14 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
+
 ### Contributors
+
 
 
 
@@ -107,6 +116,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

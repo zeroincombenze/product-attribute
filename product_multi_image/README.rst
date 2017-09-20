@@ -26,6 +26,7 @@ Installation
 
 
 
+
 To install this module, you need to:
 
 * Install ``base_multi_image`` from
@@ -36,7 +37,10 @@ Configuration
 
 
 
+
 Usage
+-----
+
 -----
 
 -----
@@ -78,6 +82,7 @@ Known issues / Roadmap
 
 
 
+
 * When you change the image on the product variant, the preview image of the
   *Images* tab doesn't get refreshed until you refresh the browser, or if you
   go to its template, but the image has been actually saved!
@@ -100,6 +105,7 @@ Bug Tracker
 
 
 
+
 Bugs are tracked on `GitHub Issues
 <https://github.com/OCA/product-attribute/issues>`_. In case of trouble, please
 check there if your issue has already been reported. If you spotted it first,
@@ -115,6 +121,7 @@ Credits
 
 
 
+
 Original implementation
 This module is inspired in previous module *product_images* from OpenLabs
 and Akretion.
@@ -123,7 +130,9 @@ and Akretion.
 
 
 
+
 ### Contributors
+
 
 
 
@@ -135,6 +144,8 @@ and Akretion.
 ### Funders
 
 ### Maintainer
+
+
 
 
 

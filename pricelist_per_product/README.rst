@@ -26,8 +26,10 @@ Installation
 
 
 
+
 Configuration
 -------------
+
 
 
 
@@ -41,6 +43,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -67,6 +71,7 @@ Known issues / Roadmap
 
 
 
+
 Mass update of prices in not the object of this module.
 
 
@@ -76,8 +81,10 @@ Bug Tracker
 
 
 
+
 Credits
 -------
+
 
 
 
@@ -86,7 +93,9 @@ Credits
 
 
 
+
 ### Contributors
+
 
 
 
@@ -97,6 +106,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 

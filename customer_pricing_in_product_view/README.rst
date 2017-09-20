@@ -26,6 +26,7 @@ Installation
 
 
 
+
 To install this module, you need to:
 
 * do nothing special
@@ -36,11 +37,14 @@ Configuration
 
 
 
+
 To configure this module, you need to:
 
 * do nothing
 
 Usage
+-----
+
 -----
 
 -----
@@ -68,6 +72,7 @@ Known issues / Roadmap
 
 
 
+
 * In previous releases this module was called 'customer_context_in_product_view' and allowed typing in a customers name
   directly in the product view.  Unfortunately with changes to the v8 search view handling of functional many2one's
   and the deprecation of fields.Dummy this was not easily portable however it is desired to find a more elegant way
@@ -78,6 +83,7 @@ Known issues / Roadmap
 
 Bug Tracker
 -----------
+
 
 
 
@@ -94,11 +100,14 @@ Credits
 
 
 
+
 [![Odoo Italia Associazione]]
 
 
 
+
 ### Contributors
+
 
 
 
@@ -109,6 +118,8 @@ Credits
 ### Funders
 
 ### Maintainer
+
+
 
 
 
