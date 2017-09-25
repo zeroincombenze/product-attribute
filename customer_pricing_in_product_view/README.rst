@@ -27,6 +27,7 @@ Installation
 
 
 
+
 While the module will install without the sale module, the functionality
 won't be visible so it is expected that sale module will be installed as well.
 
@@ -37,10 +38,13 @@ Configuration
 
 
 
+
 In order for the module to be useful you will need to have enabled both
 variants and advanced pricelists under the Sales / Settings menu.
 
 Usage
+-----
+
 -----
 
 -----
@@ -66,6 +70,7 @@ Known issues / Roadmap
 
 
 
+
 * Previous versions of this module allowed the customers name to be typed directly in the view.
 * While fields.dummy has been deprecated the functionality can still be acheived by an unstored many2one
 on product.template in the same way as pricelist_id is currently stored.
@@ -77,6 +82,7 @@ However, the way in which the context is set presents two issues.
 
 Bug Tracker
 -----------
+
 
 
 
@@ -94,11 +100,13 @@ Credits
 
 
 
+
 Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
 [![Odoo Italia Associazione]]
+
 
 
 
@@ -109,11 +117,14 @@ Images
 
 
 
+
 * Graeme Gellatly <g@o4sb.com>
 
 ### Funders
 
 ### Maintainer
+
+
 
 
 
