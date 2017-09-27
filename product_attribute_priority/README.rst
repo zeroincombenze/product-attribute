@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Product attribute priority
+==========================
 
 This module extends product attributes, adds a priority field that is copied to
  priority values and product attribute line. This field help to order the
@@ -43,6 +44,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -62,7 +67,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -75,8 +80,8 @@ Credits
 * Luis Felipe Miléo <mileo@kmee.com.br>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

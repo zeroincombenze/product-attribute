@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Product attribute multi type
+============================
 
 This module extends product attributes, adds 2 new types: range & numeric, and
 also the option of defining if it is required and a default value for the
@@ -43,6 +44,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -62,7 +67,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -78,8 +83,8 @@ Credits
 * Ana Juaristi <ajuaristio@gmail.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

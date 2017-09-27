@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Pricelist Item Generator
+========================
 
 This module allows to create pricelist items in a bulk way,
 by separate price elements and products informations. 
@@ -42,6 +43,10 @@ To configure this module (for non admin user), you need to:
 #. Check 'Use pricelists'
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -119,7 +124,7 @@ Images
 
 * Icon images comes from https://icons8.com/web-app/for/all/price%20dollar
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -133,8 +138,8 @@ Images
 * David BEAL <david.beal@akretion.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

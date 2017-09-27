@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Product customer code
+=====================
 
 This module extends of module product and allows to have different codes
 for the same product according to the customer.
@@ -43,6 +44,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -61,7 +66,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -72,8 +77,8 @@ Credits
 
 
 ### Funders
-
 ### Maintainer
+
 
 
 

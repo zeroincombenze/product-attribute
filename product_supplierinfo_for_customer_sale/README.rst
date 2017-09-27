@@ -16,6 +16,7 @@
     :target: http://www.gnu.org/licenses/agpl-3.0.en.html
 
 Product supplier info for customers - Sale
+==========================================
 
 This module extends of module *Product supplier info for customers* and allows
 use the product codes and product name configured in each products in sale
@@ -38,6 +39,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -99,7 +104,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -114,8 +119,8 @@ Credits
 * Julio Serna Hernández <julio@vauxoo.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

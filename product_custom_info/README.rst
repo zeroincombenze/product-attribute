@@ -16,6 +16,7 @@
     :alt: License: AGPL-3
 
 Product Custom Info
+===================
 
 This module extends products to allow having custom properties on them.
 
@@ -42,6 +43,10 @@ To create custom info templates:
 * Review documentation from ``base_custom_info`` module.
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -88,7 +93,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -105,8 +110,8 @@ Credits
 * Jairo Llopis <jairo.llopis@tecnativa.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

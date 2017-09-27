@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Product Variant Inactive
+========================
 
 This module extend the functionality of Product Variants
 and allow you to make activate or deactivate products using the two buttons
@@ -34,6 +35,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -89,7 +94,7 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -105,8 +110,8 @@ Images
 
 
 ### Funders
-
 ### Maintainer
+
 
 
 

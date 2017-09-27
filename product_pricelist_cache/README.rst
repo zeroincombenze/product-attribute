@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Product Pricelist Cache
+=======================
 
 Computing prices for products can be very compute intensive. This module
 stores current prices for all products, for quantity 1 and no specific
@@ -44,6 +45,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -63,7 +68,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -77,8 +82,8 @@ Credits
 * Ronald Portier <ronald@therp.nl>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

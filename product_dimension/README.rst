@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Product Dimension
+=================
 Add dimensions (length, width and height) to products. Find the volume
 automatically when you change one of these dimensions.
 
@@ -38,6 +39,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -72,7 +77,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -86,8 +91,8 @@ Credits
 * Leonardo Pistone <leonardo.pistone@camptocamp.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Brings a Cost Price Field Tax Included on Product Model
+=======================================================
 
 In Odoo, the Cost Price Field (standard_price) is by definition 'Tax Excluded'.
 So without this module, the sale price will be bad in this following configuration:
@@ -44,6 +45,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -99,7 +104,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -113,8 +118,8 @@ Credits
 * Sylvain LE GAL (https://twitter.com/legalsylvain)
 
 ### Funders
-
 ### Maintainer
+
 
 
 

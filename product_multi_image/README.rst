@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Multiple Images in Products
+===========================
 
 This module implements the possibility to have multiple images for a product
 template, a.k.a. an image gallery.
@@ -39,6 +40,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -126,7 +131,7 @@ Original implementation
 This module is inspired in previous module *product_images* from OpenLabs
 and Akretion.
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -142,8 +147,8 @@ and Akretion.
 * Jairo Llopis <yajo.sk8@gmail.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

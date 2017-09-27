@@ -16,6 +16,7 @@
     :target: http://www.gnu.org/licenses/agpl-3.0.en.html
 
 Use product supplier info also for customers
+============================================
 
 This modules allows to use supplier info structure, available in
 *Procurements* tab of the product form, also for defining customer information,
@@ -39,6 +40,10 @@ to create a pricelist with a rule with option "Based on" with the value
 "Supplier prices on the product form" (although the text is not clear enough).
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -88,7 +93,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 

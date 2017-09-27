@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 A module that adds sequence to the product template.
+====================================================
 
 This module allows to associate a sequence to the product reference.
 The reference (prefix code) is required.
@@ -40,6 +41,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -79,7 +84,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -93,8 +98,8 @@ Credits
 * BEAU Sébastien <sebastien.beau@akretion.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

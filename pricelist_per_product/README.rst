@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Pricelist Per Product
+=====================
 
 This module allows to see and edit all sale prices on product form
 
@@ -43,6 +44,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -89,7 +94,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -104,8 +109,8 @@ Credits
 * Sylvain CALADOR <sylvain.calador@akretion.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

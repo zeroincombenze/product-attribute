@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Customer Pricing in Product View
+================================
 
 This module was written to extend the functionality of products and partners to add a
 'Product Pricing' button to the partner view which when clicked will open the product list
@@ -43,6 +44,10 @@ To configure this module, you need to:
 * do nothing
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -101,7 +106,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -116,8 +121,8 @@ Credits
 * Ronald Portier <rportier@therp.nl>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

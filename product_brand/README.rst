@@ -50,6 +50,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 =====
 
 To use this module, you need to:
@@ -91,7 +95,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -109,8 +113,8 @@ Credits
 * Leonardo Donelli <donelli@webmonks.it>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

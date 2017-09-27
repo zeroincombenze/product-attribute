@@ -16,6 +16,7 @@
    :alt: License: AGPL-3
 
 Fixed price on pricelist rule
+=============================
 
 Adds a new option on pricelist rules to set a fixed price. This is made using
 a trick that writes on the back 100% in the discount to the base price to get
@@ -34,6 +35,10 @@ Configuration
 
 
 Usage
+-----
+
+-----
+
 -----
 
 -----
@@ -73,7 +78,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -99,8 +104,8 @@ Previous version contributors
 
 
 ### Funders
-
 ### Maintainer
+
 
 
 

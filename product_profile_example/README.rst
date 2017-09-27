@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Product Profile Example
+=======================
 
 This module is a use case of **Product Profile Example** module.
 
@@ -51,6 +52,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 =====
 
 Create or modify a product template or a product variant. Assign a value to the profile field.
@@ -78,7 +83,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -92,8 +97,8 @@ Credits
 * David BEAL <david.beal@akretion.com>
 
 ### Funders
-
 ### Maintainer
+
 
 
 

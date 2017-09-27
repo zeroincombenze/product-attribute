@@ -15,6 +15,7 @@
     :alt: License: AGPL-3
 
 Supplier Unit Price on Product Form
+===================================
 
 By default, On the product form, in the suppliers tab, you have to click on the
 line to get the prices of the product from that supplier.
@@ -48,6 +49,10 @@ Usage
 
 -----
 
+-----
+
+-----
+
 Known issues / Roadmap
 ----------------------
 
@@ -73,7 +78,7 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
+
 
 
 
@@ -88,8 +93,8 @@ Credits
 * Sylvain Le Gal (https://twitter.com/legalsylvain)
 
 ### Funders
-
 ### Maintainer
+
 
 
 
