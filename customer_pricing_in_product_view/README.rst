@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Display Customer Price in Product View
+======================================
 
 This module extends the functionality of products and partners by
 adding a button named "Pricing" on the partner view.  On clicking
@@ -43,6 +44,8 @@ In order for the module to be useful you will need to have enabled both
 variants and advanced pricelists under the Sales / Settings menu.
 
 Usage
+-----
+
 -----
 
 -----
@@ -105,7 +108,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Product Pricelist Tier
+======================
 
 This module extends pricelist items with a new type called tiered, allowing users to set
 a desired price at a defined minimum quantity. The price discount will be automatically
@@ -36,6 +37,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -96,7 +99,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

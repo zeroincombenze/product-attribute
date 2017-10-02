@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Product Weight Calculation
+==========================
 
 Allows to calculate products weight from its components.
 
@@ -39,6 +40,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -92,7 +95,6 @@ Images
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
 
-[![Odoo Italia Associazione]]
 
 
 

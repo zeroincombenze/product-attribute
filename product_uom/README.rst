@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Unit of Measures
+================
 
 This module adds missing unit of measures and their categories:
 
@@ -37,6 +38,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -82,7 +85,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

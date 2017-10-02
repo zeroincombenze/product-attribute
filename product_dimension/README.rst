@@ -14,6 +14,7 @@
 =========================
 
 Product Dimension
+=================
 Add dimensions (length, width and height) to products. Find the volume
 automatically when you change one of these dimensions.
 
@@ -39,6 +40,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -78,7 +81,6 @@ Credits
 
 
 
-[![Odoo Italia Associazione]]
 
 
 

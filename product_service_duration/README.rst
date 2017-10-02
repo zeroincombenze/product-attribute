@@ -16,6 +16,7 @@
     :alt: License: AGPL-3
 
 Product Service Duration
+========================
 
 Extension of products (services only) that allows them to be added to calendars.
 
@@ -47,6 +48,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -105,7 +108,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

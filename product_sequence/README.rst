@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Product Sequence
+================
 
 This module allows to associate a sequence to the product reference.
 The reference (default code) is unique (SQL constraint) and required.
@@ -41,6 +42,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -89,7 +92,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

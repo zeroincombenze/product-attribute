@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Product State
+=============
 
 In version 10.0 Odoo removes the state field from product. This module re-introduces it and allows simple product life cycle.
 
@@ -41,6 +42,8 @@ Configuration
 Nothing to configure.
 
 Usage
+-----
+
 -----
 
 -----
@@ -94,7 +97,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

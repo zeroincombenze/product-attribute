@@ -16,6 +16,7 @@
     :alt: License: LGPL-3
 
 Default Product Images
+======================
 
 This module adds default images to products with the ability to map their images to their
 `Category's Image`, to a single, `Global Product Image`, or to both, `Global and Category`, where global
@@ -37,6 +38,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -152,7 +155,6 @@ Images
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 * Company Default Product Image: `Image <https://openclipart.org/detail/98491/open-box>`_.
 
-[![Odoo Italia Associazione]]
 
 
 

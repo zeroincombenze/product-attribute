@@ -15,6 +15,7 @@
    :alt: License: AGPL-3
 
 Product - Many Categories
+=========================
 
 This module Extends the existing functionality of Odoo Products
 (One product - One Catgory) to One product -> Many Categories
@@ -39,6 +40,8 @@ Configuration
 
 
 Usage
+-----
+
 -----
 
 -----
@@ -87,7 +90,6 @@ Images
 
 * Odoo Community Association: `Icon <https://github.com/OCA/maintainer-tools/blob/master/template/module/static/description/icon.svg>`_.
 
-[![Odoo Italia Associazione]]
 
 
 
