@@ -52,6 +52,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 There's a new section on *Sales* tab of the product form called "Customers",

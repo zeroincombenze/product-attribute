@@ -52,6 +52,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 You can manage your images at Product template level:

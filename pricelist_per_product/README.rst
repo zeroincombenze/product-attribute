@@ -56,6 +56,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 * Go to the product form (Sales tab): add a Price version

@@ -50,6 +50,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 You can update the weight of one product clicking on the button under 
