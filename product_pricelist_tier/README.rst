@@ -49,6 +49,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 * Ensure the 'Sale Price' setting is set to 'Advanced pricing based on formulas . . . ' in the Sales app.

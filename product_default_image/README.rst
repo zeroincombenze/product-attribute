@@ -50,6 +50,8 @@ Usage
 
 -----
 
+-----
+
 =====
 
 There are a few notable features in this module, see below:
