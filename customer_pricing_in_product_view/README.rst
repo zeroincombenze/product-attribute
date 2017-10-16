@@ -46,17 +46,11 @@ variants and advanced pricelists under the Sales / Settings menu.
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
 =====
 
