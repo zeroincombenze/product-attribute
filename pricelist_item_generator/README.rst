@@ -45,19 +45,12 @@ To configure this module (for non admin user), you need to:
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
------
 
 =====
 

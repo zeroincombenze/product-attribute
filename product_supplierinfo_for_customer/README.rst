@@ -42,19 +42,12 @@ to create a pricelist with a rule with option "Based on" with the value
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
------
 
 =====
 

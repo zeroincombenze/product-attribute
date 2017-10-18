@@ -45,19 +45,12 @@ To create custom info templates:
 Usage
 -----
 
------
 
------
 
------
 
------
 
------
 
------
 
------
 
 =====
 
