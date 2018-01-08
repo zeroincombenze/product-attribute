@@ -24,6 +24,8 @@
 
 
 
+
+
 [![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 
 Odoo Product Attribute
@@ -55,7 +57,7 @@ Unported addons
 ---------------
 addon | version | OCA version | summary
 --- | --- | --- | ---
-[base_custom_attributes](base_custom_attributes/) | 0.1.1 (unported) | :repeat: | base_custom_attributes
+[base_custom_attributes](base_custom_attributes/) | 0.1.1 (unported) | :x: | base_custom_attributes
 [partner_custom_attributes](partner_custom_attributes/) | 0.1.0 (unported) | :repeat: | Partner Custom Attributes
 [product_attribute_multi_type](product_attribute_multi_type/) | 8.0.1.0.0 (unported) | :repeat: | Product attribute types
 [product_catalog_report](product_catalog_report/) | 1.0 (unported) | :repeat: | Product Catalog - Print Report of product catalog with product image
