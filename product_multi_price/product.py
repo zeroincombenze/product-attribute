@@ -58,7 +58,6 @@ class product_product(Model):
 #                arch = arch_3 + arch_4
 #            else:
 #                arch = arch_1 + arch_2 + arch_3 + arch_4
-#            import pdb;pdb.set_trace()
 #            result['fields'].update(self.fields_get(cr, uid, price_fields, context))
 #            result['arch'] = result['arch'].decode('utf8').replace('<field name="list_price" modifiers="{}"/>', arch)
 ##            print result
