@@ -8,9 +8,51 @@
 [![try it](http://www.zeroincombenze.it/wp-content/uploads/ci-ct/prd/button-try-it-8.svg)](http://erp8.zeroincombenze.it)
 
 
-[![en](https://github.com/zeroincombenze/grymb/blob/master/flags/en_US.png)](https://www.facebook.com/groups/openerp.italia/)
-================================================================================================
-================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[![en](http://www.shs-av.com/wp-content/en_US.png)](http://wiki.zeroincombenze.org/it/Odoo/7.0/man)
 
 Odoo Product Attribute
 ======================
@@ -37,7 +79,7 @@ addon | version | OCA version | summary
 [product_gtin](product_gtin/) | 8.0.1.1.0 | :repeat: | Product GTIN EAN8 EAN13 UPC JPC Support
 [product_m2mcategories](product_m2mcategories/) | 8.0.1.0.2 | :repeat: | Product - Many Categories
 [product_manufacturer](product_manufacturer/) | 8.0.1.0.0 | :repeat: | Products Manufacturers
-[product_multi_image](product_multi_image/) | 8.0.2.0.0 | :repeat: | Multiple Images in Products
+[product_multi_image](product_multi_image/) | 8.0.2.0.0 | 8.0.2.0.1 | Multiple Images in Products
 [product_pricelist_cache](product_pricelist_cache/) | 8.0.1.0.0 | :repeat: | Cache product prices
 [product_pricelist_fixed_price](product_pricelist_fixed_price/) | 8.0.1.0.1 | :repeat: | Fixed price in pricelists
 [product_profile](product_profile/) | 8.0.1.0.2 | :repeat: | Allow to configure a product in 1 click
