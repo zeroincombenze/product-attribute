@@ -1,3 +1,0 @@
-{
-    'installable': False,
-}
