@@ -22,7 +22,7 @@
         'views/image_view.xml',
         'views/product_template_view.xml',
     ],
-    'installable': True,
+    'installable': False,
     "images": [
         "images/product.png",
         "images/db.png",
