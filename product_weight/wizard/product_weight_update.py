@@ -1,98 +1,126 @@
-# -*- coding: utf-8 -*-
-
-##############################################################################
-#
-#    OpenERP, Open Source Management Solution
-#    Copyright (C) 2013 Savoir-faire Linux (<http://www.savoirfairelinux.com>).
-#
-#    This program is free software: you can redistribute it and/or modify
-#    it under the terms of the GNU Affero General Public License as
-#    published by the Free Software Foundation, either version 3 of the
-#    License, or (at your option) any later version.
-#
-#    This program is distributed in the hope that it will be useful,
-#    but WITHOUT ANY WARRANTY; without even the implied warranty of
-#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-#    GNU Affero General Public License for more details.
-#
-#    You should have received a copy of the GNU Affero General Public License
-#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-#
-##############################################################################
+# Copyright (C) 2013 Savoir-faire Linux (<http://www.savoirfairelinux.com>).
+# Copyright (C) 2015 Akretion (<http://www.akretion.com>).
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 import logging
-from openerp.osv import fields, osv
-from openerp.tools.translate import _
+
+from odoo import _, api, fields, models
+from odoo.exceptions import UserError
 
 _logger = logging.getLogger(__name__)
 
 
-class product_weight_update(osv.osv_memory):
+class ProductWeightUpdate(models.TransientModel):
     _name = "product.weight.update"
     _description = "Update Product Weight"
-    _columns = {
-        'product_id': fields.many2one('product.product', 'Product'),
-        'bom_id': fields.many2one('mrp.bom',
-                                  'BoM',
-                                  domain="[('product_id', '=', product_id)]"),
-    }
 
-    def default_get(self, cr, uid, fields, context):
-        """ To get default values for the object.
-         @param self: The object pointer.
-         @param cr: A database cursor
-         @param uid: ID of the user currently logged in
-         @param fields: List of fields for which we want default values
-         @param context: A standard dictionary
-         @return: A dictionary which of fields with values.
-        """
-        product_id = context and context.get('active_id', False) or False
-        res = super(product_weight_update, self).default_get(cr,
-                                                             uid,
-                                                             fields,
-                                                             context=context)
+    product_tmpl_id = fields.Many2one("product.template", "Template")
+    product_id = fields.Many2one("product.product", "Product")
+    bom_id = fields.Many2one(
+        "mrp.bom", "BoM", domain="[('product_tmpl_id', '=', product_tmpl_id)]"
+    )
 
-        bom_id = self.pool.get('mrp.bom').search(
-            cr, uid, [('product_id', '=', product_id)])[0]
+    @api.model
+    def default_get(self, fields):
+        res = super().default_get(fields)
+        if not fields:
+            return res
+        context = self.env.context
+        if context.get("active_model") == "product.template":
+            product_tmpl_id = context.get("active_id", False)
+            product_id = False
+            domain_template = [("product_tmpl_id", "=", product_tmpl_id)]
+            domain_product = []
+        else:
+            product_id = context.get("active_id", False)
+            product = self.env["product.product"].browse(product_id)
+            product_tmpl_id = product.product_tmpl_id.id
+            domain_template = [("product_tmpl_id", "=", product_tmpl_id)]
+            domain_product = [("product_id", "=", product_id)]
+        bom = False
+        if domain_product:
+            bom = self.env["mrp.bom"].search(domain_product, limit=1)
+        if not domain_product or not bom:
+            bom = self.env["mrp.bom"].search(domain_template, limit=1)
+        if bom:
+            res.update({"bom_id": bom.id})
 
-        if 'product_id' in fields:
-            res.update({'product_id': product_id})
-
-        res.update({'bom_id': bom_id})
-
+        if "product_tmpl_id" in fields:
+            res.update({"product_tmpl_id": product_tmpl_id})
+        if "product_id" in fields and product_id:
+            res.update({"product_id": product_id})
         return res
 
-    def update_weight(self, cr, uid, ids, context=None):
-        mrp_bom = self.pool.get("mrp.bom")
-        # product_uom_categ = self.pool.get("product.uom.categ")
-        product_product = self.pool.get("product.product")
+    def calculate_product_bom_weight(self, bom, product=False):
+        product_tmpl = bom.product_tmpl_id
+        if not product:
+            product = product_tmpl.product_variant_ids[:1]
+            if not product:
+                raise UserError(
+                    _(
+                        "Missing active variant for product %s"
+                        % (product_tmpl.display_name)
+                    )
+                )
+        factor = product_tmpl.uom_id._compute_quantity(
+            1, bom.product_uom_id, round=False
+        )
+        dummy, lines_info = bom.explode(product, factor)
+        weight = 0.0
+        for bom_line, info in lines_info:
+            component = bom_line.product_id
+            component_qty = bom_line.product_uom_id._compute_quantity(
+                info.get("qty"), component.uom_id
+            )
+            weight += component.weight * component_qty
+        if product:
+            _logger.info("%s : %0.2f", product.name, weight)
+            product.write({"weight": weight})
+        else:
+            _logger.info("%s : %0.2f", product_tmpl.name, weight)
+            product_tmpl.write({"weight": weight})
 
-        if context is None:
-            context = {}
-
-        rec_id = context and context.get('active_id', False)
-        assert rec_id, _('Active ID is not set in Context')
-
-        for i in self.browse(cr, uid, ids, context=context):
-            weight_net = 0.0
-            bom_ids = mrp_bom.search(cr, uid,
-                                     [('bom_id', '=', i.bom_id.id)])
-            for bom in mrp_bom.browse(cr, uid, bom_ids, context=context):
-                _logger.warning(_('Weight'))
-                if bom.product_uom.category_id.id == 2:
-                    weight_net += bom.product_qty
-                else:
-                    weight_net += (bom.product_qty * bom.product_id.weight_net)
-
-                _logger.warning("%s (%s): %0.2f" % (
-                    bom.product_id.name,
-                    bom.product_uom.category_id.name, weight_net))
-            weight_net = weight_net / mrp_bom.browse(
-                cr, uid, i.bom_id.id, context=context).product_qty
-            product_product.write(cr, uid, rec_id,
-                                  {'weight_net': weight_net},
-                                  context=context)
+    def update_single_weight(self):
+        self.ensure_one()
+        product = self.product_id or self.bom_id.product_id
+        self.calculate_product_bom_weight(self.bom_id, product=product)
         return {}
 
+    def update_multi_product_weight(self):
+        self.ensure_one()
+        product_obj = self.env["product.product"]
+        context = self.env.context
+        if context.get("active_model") == "product.template":
+            template_ids = context.get("active_ids", [])
+            product_ids = []
+            template_obj = self.env["product.template"]
+        else:
+            product_ids = context.get("active_ids", [])
+            template_ids = []
+            product_obj = self.env["product.product"]
 
-product_weight_update()
+        # Case wizard is called from product.product tree view
+        for product_id in product_ids:
+            product = product_obj.browse(product_id)
+            bom = self.env["mrp.bom"].search([("product_id", "=", product_id)], limit=1)
+            if not bom:
+                bom = self.env["mrp.bom"].search(
+                    [
+                        ("product_tmpl_id", "=", product.product_tmpl_id.id),
+                        ("product_id", "=", False),
+                    ],
+                    limit=1,
+                )
+            if bom:
+                self.calculate_product_bom_weight(bom, product=product)
+
+        # Case wizard is called from product.template tree view
+        for template_id in template_ids:
+            template = template_obj.browse(template_id)
+            if len(template.product_variant_ids) > 1:
+                continue
+            bom = self.env["mrp.bom"].search(
+                [("product_tmpl_id", "=", template_id)], limit=1
+            )
+            if bom:
+                self.calculate_product_bom_weight(bom, bom.product_id)
